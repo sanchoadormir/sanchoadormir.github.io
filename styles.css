@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('sanch.ttf') format('truetype');
+}
+
+html{
+    
+    color: white;
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+h1 {
+    font-family: 'myfont';
+    color: rgb(177, 216, 86);
+    text-align: center;
+}
+p    {
+    
+    margin-left: 2%;
+}
