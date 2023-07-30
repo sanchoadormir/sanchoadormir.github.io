@@ -5,12 +5,12 @@
 
 html{
     text-align: justify;
-    color: white;
+    color: black;
     margin-left: 2%;
     margin-right: 2%;
 }
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: white;
 }
 h1 {
     font-family: 'sanchscript';
