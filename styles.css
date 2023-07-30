@@ -32,6 +32,7 @@ h1 {
   background-color: white;
   padding: 16px;
   font-size: 16px;
+    float: left;
   border: none;
 }
 ​
