@@ -6,7 +6,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="stylesheet" href="styles.css">
         <script>
-            function myFunction() {
+            function dropdown() {
                 document.getElementById("dropdown").classList.toggle("show");
             }
         </script>
@@ -18,7 +18,7 @@
               sanchoadormir's Portfolio
             </h1-->
             <div class="dropdown">
-              <button class="dropbtn "><span class="material-symbols-outlined">menu</span></button>
+              <a onClick="dropdown()" onHover="dropdown()" class="dropbtn material-symbols-outlined">menu</a>
               <div class="dropdown-content">
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>
