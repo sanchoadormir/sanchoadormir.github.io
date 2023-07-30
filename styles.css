@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'myfont';
+    font-family: 'sanchscript';
     src: url('sanch.ttf') format('truetype');
 }
 
@@ -11,7 +11,7 @@ body {
     background-color: rgb(0, 0, 0);
 }
 h1 {
-    font-family: 'myfont';
+    font-family: 'sanchscript';
     color: rgb(177, 216, 86);
     text-align: center;
 }
