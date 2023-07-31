@@ -18,15 +18,15 @@
 
 }
 
-.carousel {
-  
+.primage {
+  max-width: 100px;
 }
 
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+.carousel {
   max-width: 1000px;
   position: relative;
   margin: auto;
