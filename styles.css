@@ -1,21 +1,62 @@
 @font-face {
-    font-family: 'myfont';
+    font-family: 'sanchscript';
     src: url('sanch.ttf') format('truetype');
 }
 
 html{
-    
-    color: white;
+    text-align: justify;
+    color: black;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: white;
 }
 h1 {
-    font-family: 'myfont';
+    font-family: 'sanchscript';
     color: rgb(177, 216, 86);
     text-align: center;
 }
-p    {
+.photo:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
-    margin-left: 2%;
 }
+.photo{
+    height: fit-content;
+    border-color: black;
+    margin: 5%;
+    border-style:solid;
+    border-width: 1px;
+}
+.dropbtn {
+  background-color: white;
+  padding: 16px;
+  font-size: 16px;
+    float: left;
+  border: none;
+}
+​
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+​
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+​
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+​
+.dropdown-content a:hover {background-color: #ddd;}
+​
+.dropdown:hover .dropdown-content {display: block;}
