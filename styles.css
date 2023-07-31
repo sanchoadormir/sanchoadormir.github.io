@@ -19,7 +19,7 @@
 }
 
 .primage {
-  max-width: 100px;
+  max-width: 250px;
 }
 
 
@@ -33,7 +33,7 @@
 }
 
 /* Hide the images by default */
-.mySlides {
+.slide {
   display: none;
 }
 
