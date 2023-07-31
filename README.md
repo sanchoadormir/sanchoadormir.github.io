@@ -1,3 +1,3 @@
 
 # Portfolio Website
-sanchoadormir.github.io["sanchoadormir.github.io"]
+This is my portfolio website. yet i dont plan it to be updated
