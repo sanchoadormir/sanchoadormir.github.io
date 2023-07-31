@@ -7,8 +7,17 @@
 
 .menubutton {
   float: right;
+  transition-duration: 0.4s;
+  border: 2px solid #f0f8ff;
+  color: #f0f8ff;
+  
 }
 
+.menubutton:hover {
+  background-color: #f0f8ff;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .introdiv {
 
 }
