@@ -19,7 +19,7 @@
 }
 
 .primage {
-  max-width: 250px;
+  max-width: device-width;
 }
 
 
